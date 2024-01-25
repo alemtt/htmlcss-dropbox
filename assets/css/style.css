@@ -1,0 +1,53 @@
+
+/*#region common*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+/*#endregion common*/
+
+
+/*#region utility*/
+
+
+/*#endregion utility*/
+
+/*#region debug*/
+.debug .site_header{
+    height: 40px;
+    background-color: aqua;
+}
+
+/*#endregion debug*/
+
+
+
+/*#region header*/
+ul{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.site_left{
+    justify-content: end
+}
+
+/*#endregion header*/
+
+/*#region main*/
+
+/*#endregion main*/
+
+/*#region footer*/
+
+/*#endregion footer*/
