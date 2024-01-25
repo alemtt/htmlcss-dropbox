@@ -28,6 +28,16 @@
     margin: auto;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    gap: 2rem;
+}
+
 /*#endregion utility*/
 
 /*#region debug*/
@@ -38,6 +48,11 @@
 
 .debug .container{
     height: 800px;
+}
+
+.debug .card{
+    height: 300px;
+    background-color: lightgoldenrodyellow;
 }
 
 /*#endregion debug*/
@@ -72,6 +87,11 @@ nav ul{
 
 .jumbo_img{
     width: 300px;
+}
+
+.card{
+    width: calc((100%/12)*4);
+    
 }
 
 /*#endregion main*/
