@@ -9,11 +9,24 @@
 .d-flex{
     display: flex;
 }
+
+:root{
+    --drop-dark: #000000FF;
+    --drop-light:#8b8b8bFF;
+    --drop-lighter:#ffffffFF;
+    --drop-accent:#61082bFF;
+    --drop-main: #0061ffFF;
+    --drop-second:#b4d0e7FF;
+}
 /*#endregion common*/
 
 
 /*#region utility*/
-
+.container{
+    width: 70%;
+    max-width: 1900px;
+    margin: auto;
+}
 
 /*#endregion utility*/
 
@@ -21,6 +34,10 @@
 .debug .site_header{
     height: 40px;
     background-color: aqua;
+}
+
+.debug .container{
+    height: 800px;
 }
 
 /*#endregion debug*/
@@ -42,12 +59,24 @@ nav ul{
     justify-content: end
 }
 
+
 /*#endregion header*/
 
+
+
 /*#region main*/
+
+.jumbo{
+    background-color: var(--drop-second);
+}
+
+.jumbo_img{
+    width: 300px;
+}
 
 /*#endregion main*/
 
 /*#region footer*/
 
 /*#endregion footer*/
+
