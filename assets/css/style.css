@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed black;
 }
 .d-flex{
     display: flex;
@@ -23,8 +24,14 @@
 
 /*#region utility*/
 .container{
-    width: 70%;
+    width: 80%;
     max-width: 1900px;
+    margin: auto;
+}
+
+.container-sm{
+    max-width: 1200px;
+    width: 70%;
     margin: auto;
 }
 
@@ -33,9 +40,14 @@
     flex-wrap: wrap;
 }
 
-.col{
+.col-4{
     display: flex;
     gap: 2rem;
+    width: calc((100%/12)*4)
+}
+
+.col-12{
+    width: calc((100%/12)*12);
 }
 
 /*#endregion utility*/
@@ -49,8 +61,11 @@
 .debug .container{
     height: 800px;
 }
+.debug .container-sm{
+    height: 700px;
+}
 
-.debug .card{
+.debug [class^="col-"]{
     height: 300px;
     background-color: lightgoldenrodyellow;
 }
@@ -90,8 +105,7 @@ nav ul{
 }
 
 .card{
-    width: calc((100%/12)*4);
-    
+   
 }
 
 /*#endregion main*/
