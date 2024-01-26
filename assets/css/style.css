@@ -18,11 +18,38 @@
     --drop-accent:#61082bFF;
     --drop-main: #0061ffFF;
     --drop-second:#b4d0e7FF;
+    --drop-designit:#A2D39BFF;
+    --drop-designitsecond: #d1e9cdFF;
+    --drop-uf: #0093ceFF;
+    --drop-topps: #ff1c1cFF;
+    --drop-wbr: #d5001fFF;
+    --drop-lp: #0d2481FF;
+    --drop-cco: #ffd830FF;
+    --drop-designitbg: #f5f5f5FF;
 }
+
+
 /*#endregion common*/
 
 
 /*#region utility*/
+
+.btn{
+    border: 0;
+    padding: 0.5rem;
+    font-size: 12px;
+    background-color: var(--drop-main);
+    color: var(--drop-lighter);
+}
+
+li{
+    padding: 0.5rem;
+}
+
+.jumbo .container{
+    position:relative;
+}
+
 .container{
     width: 80%;
     max-width: 1900px;
@@ -50,12 +77,14 @@
     width: calc((100%/12)*12);
 }
 
+
+
 /*#endregion utility*/
 
 /*#region debug*/
 .debug .site_header{
     height: 40px;
-    background-color: aqua;
+   
 }
 
 .debug .container{
@@ -75,8 +104,18 @@
 
 
 /*#region header*/
+
+header{
+    font-size: 13px;
+}
+
 ul{
     list-style: none;
+}
+
+li .btn{
+    background-color: var(--drop-main);
+    color: var(--drop-lighter);
 }
 
 nav ul{
@@ -101,8 +140,23 @@ nav ul{
 }
 
 .jumbo_img{
-    width: 300px;
+    width: 600px;
+    position: absolute;
+    left: 210px;
+    bottom: -40px;
 }
+
+.col-jum{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: inline-block;
+
+}
+
 
 .card{
    
