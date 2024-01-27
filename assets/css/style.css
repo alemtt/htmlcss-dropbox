@@ -60,6 +60,7 @@ li{
     max-width: 1200px;
     width: 70%;
     margin: auto;
+    padding-top: 4rem;
 }
 
 .row{
@@ -77,14 +78,21 @@ li{
     width: calc((100%/12)*12);
 }
 
+.card-title{
+    text-align: center;
+    border: 1px solid var(--drop-light);
+    padding: 0.5rem;
+}
 
+.fa-solid .fa-check{
+    filter:invert(100%)var(--drop-main);
+}
 
 /*#endregion utility*/
 
 /*#region debug*/
 .debug .site_header{
     height: 40px;
-   
 }
 
 .debug .container{
@@ -150,6 +158,7 @@ nav ul{
     width: 200px;
     display: flex;
     flex-direction: column;
+    gap: 2.5rem;
 }
 
 .text{
@@ -159,7 +168,15 @@ nav ul{
 
 
 .card{
+   display: flex;
+   flex-flow: column;
+   flex-wrap: nowrap;
+   border: 1px solid var(--drop-light);
    
+}
+
+.card-body{
+    padding: 2rem;
 }
 
 .container-clients{

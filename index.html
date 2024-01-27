@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="debug">
+<body class="">
        <!--header-->
     <header class="site_header">
         <nav class="d-flex">
@@ -50,23 +50,158 @@
         <div class="">
             <div class="container-sm">
                 <h2>Trova il piano business che fa per te</h2>
-                <input type="radio">
-                <input type="radio">
+                <input type="radio" id="month" name="bill" value="month" >
+                <label for="month">Fatturazione mensile</label>
+                <input type="radio" id="annual" name="bill" value="annual">
+                <label for="annual">Fatturazione annuale</label>
                 <div class="row">
                     <div class="col-4">
                         <div class="card"> <!--singolo-->
-                            ciao
+                            <div class="card-title">
+                                <i class="fa-solid fa-user"></i>
+                                <span>signolo</span>
+                            </div>
+                            <div class="card-body">
+                            <h3>Professional</h3>
+                            <strong>€ 12.00</strong>
+                            <p>/mese</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>1 utente</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                </li>
+                            </ul>
+                            <button class="btn">Prova grati per 30 giorni</button>
+                            <span>oppure <a href="">acquista ora</a></span>
+                            
+                            <hr>
+
+                            <strong>Punti Salienti del piano</strong>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Invia file fino a 100 GB con Dropbox Transfert</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
+                        
                     </div>
                     <div class="col-4">
                         <div class="card"> <!--team-->
-                            ciao
+                            <div class="card-title">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Team</span>
+                            </div>
+                            <div class="card-body">
+                            <h3>Advanced</h3>
+                            <strong>€ 18.00</strong>
+                            <p>/utente/mese</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    <span>3 o più utenti</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>tutto lo spazio di cui ha bisogno il tuo team</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                                </li>
+                            </ul>
+                            <button class="btn">Prova grati per 30 giorni</button>
+                            <span>oppure <a href="">acquista ora</a></span>
+                            
+                            <hr>
+
+                            <strong>Punti Salienti del piano</strong>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Nessun limite di spazio per i file</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Possibilità di inserire nuovi membri del team</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Gestione dei permessi in base ai ruoli</span>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
+
                     </div>
                     <div class="col-4">
                         <div class="card"> <!--azienda-->
-                            ciao Lorem ipsum dolor sit amet consectetur adipisicing elit. Id asperiores optio enim officia quibusdam quo, nisi earum suscipit error nulla, dolore dignissimos repellendus neque deserunt distinctio nemo, minima eligendi assumenda?
+                            <div class="card-title">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Azienda</span>
+                            </div>
+                            <div class="card-body">
+                            <h3>Enterprise</h3>
+                            <strong>Contattaci</strong>
+                            <p>-</p>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>10 o più utente</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Soluzioni personalizzabili per la tua azienda</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                                </li>
+                            </ul>
+                            <button class="btn">Prova grati per 30 giorni</button>
+                            <span>oppure <a href="">acquista ora</a></span>
+                            
+                            <hr>
+
+                            <strong>Punti Salienti del piano</strong>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Cartelle offline su dispositivi mobili</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Servizio assistenza 24/h</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Possibilità di personalizzazione totale</span>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
+
                     </div>
                     <div class="col-12"></div>
                 </div>
